@@ -1,0 +1,26 @@
+html, body {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+	background-color: #fff;
+	font-family: sans-serif;
+	margin: 0 5px;
+	font-family: "Open Sans";
+	text-align:center;
+}
+ 
+h1 {
+	font-weight: normal;
+	font-size: 140%;
+	font-size: 2em;
+	font-weight: 600;
+	padding: 2%;
+	background-color: #4593CF;
+	color: #ffffff;
+	text-align: center;
+	display: block;
+}
+
+
