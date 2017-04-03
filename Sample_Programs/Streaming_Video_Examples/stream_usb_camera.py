@@ -19,7 +19,8 @@ app = Flask(__name__)
 def index():
     # Video streaming home page.
     # This should serve up your USB Webcam video.
-    url = "192.168.0.103"   # You should change this to your Raspberry Pi IP address.
+    url = "10.10.10.10"
+    # url = "192.168.0.103"   # You should change this to your Raspberry Pi IP address.
                             # Hint: you can find the address by running "ifconfig" on the command line.
                             # If you are running DexOS you can replace this with "10.10.10.10"
     return render_template('usb_camera_index.html', url_address = url)
